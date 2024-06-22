@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <p class="logo">
+            <a href="index.html">pavepo</a>
+        </p>
+        <a href="login.html" class="nav-responsive-log-in">Log in</a>
+        <div class="burger" onclick="burgerFunc()" id="burger">
+            <span id="burger-span-1"></span>
+            <span id="burger-span-2"></span>
+            <span id="burger-span-3"></span>
+        </div>
+        <div class="burger-menu" id="burger-menu">
+            <ul class="nav-list-center-burger">
+                <li>
+                    <a href="about-company.html">About us</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="job.html"job>Job</a> 
+                </li>
+                <li>
+                    <a href="">Contact</a>                
+                </li>
+                <li>
+                    <a href="news.html">News</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav-list-center">
+            <li>
+                <a href="about-company.html">About us</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="job.html"job>Job</a> 
+            </li>
+            <li>
+                <p href="" onclick="changeContactDisplay()">Contact</p>                
+            </li>
+            <li>
+                <a href="news.html">News</a>
+            </li>
+        </ul>
+        <ul class="nav-list-right">
+            <li>
+                <span class="off">Ukr </span>
+                <span class="on">Eng</span>
+            </li>
+            <li>
+                <a href="login.html">Log in</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="contact-div" id="contact-div">
+        <div class="contact-div-content">
+            <h2>Contact us</h2>
+            <form action="">
+                <div class="contact-div-1">
+                        <input type="text" placeholder="contact@pavepo.com" class="contact-div-input-email">
+                        <div class="radios">
+                            <input type="radio" id="radio-1" name="contact" checked class="radio-1">
+                            <label for="radio-1">Email</label>
+                            <input type="radio" id="radio-2" name="contact" class="radio-2">
+                            <label for="radio-2">Telegram</label>
+                        </div>
+                    </div>
+                    <div class="contact-div-2">
+                        <input type="text" placeholder="Paul" class="contact-div-input-name">
+                        <p class="contact-div-name">Name</p>
+                    </div>
+                    <div class="contact-div-3">
+                        <input type="text" placeholder="Write information about yourself" class="contact-div-input-info">
+                        <p class="contact-div-info">Description</p>
+                    </div>
+                <input type="submit" value="Send" class="contact-div-submit" id="contact-div-submit"
+                onclick="changeContactDisplay()">
+            </form>
+         </div>
+    </div>
+    <main class="main main-page">
+        </div>
+        <div class="top-part">
+            <h1>Your key</h1>
+            <p>to transformation and reaching new heights</p>
+                <img src="img/image 2@2x.png" alt="" class="not-responsive">
+                <img src="img/responsive-img.jpg" alt="" class="responsive">
+            <ul class="ul-top-f">
+                <li><p>170M+</p>
+                    <p>Customers earn</p>
+                </li>
+                <li>
+                    <p>84</p>
+                    <p>Complete projects</p>
+                </li>
+                <li>
+                    <p>58</p>
+                    <p>Satisfied customers</p>
+                </li>
+            </ul>
+            <ul class="ul-top-s">
+                <li>
+                    <a href="">CoinBase</a>
+                </li>
+                <li>
+                    <a href="">ExperJob</a>
+                </li>
+                <li>
+                    <a href="">WOSTAT</a>
+                </li>
+                <li>
+                    <a href="">SoilCTRL</a>
+                </li>
+                <li>
+                    <a href="">WOSTAT</a>
+                </li>
+                <li>
+                    <a href="">CoinBase</a>
+                </li>
+                <li>
+                    <a href="">ExperJob</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="main-part">-->
+            <div class="about-us">
+                <div class="about-us-text">
+                    <h3><img src="img/Line 2.svg" alt="" class="about-us-text-line">About us</h3>
+                    <div class="about-us-paragraphs">
+                        <p>We specialize in optimizing and automating processes in enterprises, helping to increase their efficiency and reach new heights of success. Our company, with rich experience and deep knowledge in the field of business processes, offers modern and innovative solutions that will allow your company to be the first on the path to success.</p>
+                        <p>Our main goal is to help you overcome difficulties and go beyond the standard framework by radically improving and optimizing business processes. We strive to create an effective and efficient organization that implements advanced technologies and innovations to achieve business heights.</p>
+                    </div>
+                    <a href="about-company.html" class="about-us-more more" id="about-us-more">
+                        <span>More</span>
+                        <img src="img/arrow-white.svg" alt="" id="about-us-img">
+                    </a>
+                </div>
+                <img src="img/about-us.png" alt="" class="about-us-img">
+            </div>
+            <div class="team">
+                <img src="img/team.png" alt="" class="team-img">
+                <div class="team-text">
+                    <h3><img src="img/Line 2.svg" alt="" class="team-text-line">Team</h3>
+                    <div class="team-paragraphs">
+                        <p>Our team is our main key to achieving success. We are proud of the diversity of talented professionals who work together to create innovative solutions and achieve results that exceed expectations.</p>
+                        <p>Our team is our main key to achieving success. We are proud of the diversity of talented professionals who work together to create innovative solutions and achieve results that exceed expectations.</p>
+                    </div>
+                    <a href="job.html" class="team-more more" id="team-more">
+                        <span>Job</span>
+                        <img src="img/arrow-white.svg" alt="" id="team-img">
+                    </a>
+                </div>
+            </div>
+            <div class="quote">
+                <img src="img/upper-quote.svg" alt="" class="upper-quote">
+                <div class="quote-text">
+                <p class="quote-main-text">
+                    We are always very honest about working with customers. Therefore, we do not undertake projects that we think have a low probability of implementation. But if we have undertaken it, then rest assured - we will do everything possible and not possible to bring your task to an end.
+                </p>
+                <p class="quote-author">
+                    Pavel Popov  CEO “PAVEPO”
+                </p>
+            </div>
+                <img src="img/lower-quote.svg" alt="" class="lower-quote">
+            </div>
+            <div class="main-directions responsive" id="services">
+                <h2>The main directions</h2>
+                <div class="direction">
+                    <div class="direction-text">
+                    <div class="direction-h4">
+                        <h4>Business process analysis</h4>
+                    </div>
+                    <span>Conducting a detailed analysis of current business processes, identifying problem areas, and identifying potential for improvement.</span>
+                </div>
+                    <a href="" class="direction-more" id="direction-more1">
+                        <img src="img/arrow-white.svg" alt="" id="direction-img1">
+                    </a>
+                </div>
+                <div class="direction">
+                    <div class="direction-text">
+                    <div class="direction-h4">
+                    <h4>Reaching new heights</h4>
+                    </div>
+                    <span>We are looking for and implementing unique ways to help you achieve a leading position in your industry.</span>
+                    </div>
+                    <a href="" class="direction-more" id="direction-more2">
+                        <img src="img/arrow-white.svg" alt="" id="direction-img2">
+                    </a>
+                </div>
+                <div class="direction">
+                    <div class="direction-text">
+                    <div class="direction-h4">
+                    <h4>Product development</h4>
+                    </div>
+                    <span>We undertake full-fledged product development, turning your idea and vision into reality.</span>
+                    </div>
+                    <a href="" class="direction-more" id="direction-more3">
+                        <img src="img/arrow-white.svg" alt="" id="direction-img3">
+                    </a>
+                </div>
+                </div>
+                <div class="main-directions not-responsive" id="services">
+                    <h2>The main directions</h2>
+                    <div class="direction">
+                        <div class="direction-h4">
+                            <h4>Business process analysis</h4>
+                        </div>
+                        <span>Conducting a detailed analysis of current business processes, identifying problem areas, and identifying potential for improvement.</span>
+                        <a href="" class="direction-more" id="direction-more1">
+                            <img src="img/arrow-white.svg" alt="" id="direction-img1">
+                        </a>
+                    </div>
+                    <div class="direction">
+                        <div class="direction-h4">
+                        <h4>Reaching new heights</h4>
+                        </div>
+                        <span>We are looking for and implementing unique ways to help you achieve a leading position in your industry.</span>
+                        <a href="" class="direction-more" id="direction-more2">
+                            <img src="img/arrow-white.svg" alt="" id="direction-img2">
+                        </a>
+                    </div>
+                    <div class="direction">
+                        <div class="direction-h4">
+                        <h4>Product development</h4>
+                        </div>
+                        <span>We undertake full-fledged product development, turning your idea and vision into reality.</span>
+                        <a href="" class="direction-more" id="direction-more3">
+                            <img src="img/arrow-white.svg" alt="" id="direction-img2">
+                        </a>
+                    </div>
+                    </div>
+                <div class="program">
+                     <div class="program-top">
+                         <h3>We love customers with extraordinary tasks more</h3>
+                        <p>Solving non—standard tasks is the engine of the industry and the driving force of progress in the world.</p>
+                        <a href="">Tell us about the task</a>
+                    </div>
+                    <div class="program-items">
+                            <div class="program-1">
+                                <h5>Discussion of your wishes</h5>
+                                <p>The most important thing for us is to understand what kind of result you want to get and offer a solution on how to make it even better.</p>
+                            </div>
+                            <div class="program-2">
+                                <h5>Solution development</h5>
+                                <p>In the process, you regularly receive reports and observe how your idea begins to emerge.</p>
+                            </div>
+                            <div class="program-3">
+                                <h5>Achieving your goal</h5>
+                                <p>We will help him get up every time he falls, so that he can then move on his own.</p>
+                            </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                </div>
+                <div class="contact-form">
+                    <h2>Contact us</h2>
+                    <form action="">
+                        <div class="contact-1">
+                                <input type="text" placeholder="contact@pavepo.com" class="contact-input-email">
+                                <div class="radios">
+                                    <input type="radio" id="radio-1" name="contact" checked class="radio-1">
+                                    <label for="radio-1">Email</label>
+                                    <input type="radio" id="radio-2" name="contact" class="radio-2">
+                                    <label for="radio-2">Telegram</label>
+                                </div>
+                            </div>
+                            <div class="contact-2">
+                                <input type="text" placeholder="Paul" class="contact-input-name">
+                                <p class="contact-name">Name</p>
+                            </div>
+                            <div class="contact-3">
+                                <input type="text" placeholder="Pavepo.com" class="contact-input-site">
+                                <p class="contact-site">Company site</p>
+                            </div>
+                            <div class="contact-4">
+                                <input type="text" placeholder="How to move the planet in the right direction even faster?" class="contact-input-question">
+                                <p class="contact-question">Describe the question</p>
+                            </div>
+                        <input type="submit" value="Send" class="contact-submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="frequent-questions">
+                    <div class="frequent-questions-text">
+                        <h2>Frequent questions</h2>
+                        <p>Here you can find information on the most common questions. You can ask us a question<a href="">Here</a></p>
+                    </div>
+                    <div class="frequent-questions-questions">
+                        <div class="question question-closed">
+                            <p>What results can be expected from optimizing business processes?</p>
+                            <img src="img/up-arrow.svg" alt="" onclick="">
+                        </div>
+                        <div class="question question-closed">
+                            <p>What will be the cost of optimizing business processes?</p>
+                            <img src="img/up-arrow.svg" alt="" onclick="">
+                        </div>
+                        <div class="question question-closed">
+                            <p>How long will the optimization process take?</p>
+                            <img src="img/up-arrow.svg" alt="" onclick="">
+                        </div>
+                        <div class="question question-closed">
+                            <p>What are the risks associated with optimizing business processes?</p>
+                            <img src="img/up-arrow.svg" alt="" onclick="">
+                        </div>
+                        <div class="question question-opened">
+                            <p>What successes and experience does your agency have in optimizing business processes?</p>
+                            <img src="img/up-arrow.svg" alt="" onclick="">
+                            <p>We have successful experience working with various organizations in different industries. Our agency has proven expertise in the field of analysis, strategy development and implementation of optimized business processes. We are ready to provide references and results of past projects.</p>
+                        </div>
+                    </div>
+                </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h2>pavepo</h2>
+            <ul>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Telegram</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Email</a></li>
+                <li><a href="policy.html">Privacy</a></li>
+                <li><a href="policy.html">Policy</a></li>
+            </ul>
+            <p class="footer-email">For additional questions  contact@pavepo.com</p>
+            <p class="contact-us" onclick="changeContactDisplay()">
+                Contact us
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

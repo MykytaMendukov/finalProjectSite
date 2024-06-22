@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <p class="logo">
+            <a href="index.html">pavepo</a>
+        </p>
+        <a href="login.html" class="nav-responsive-log-in">Log in</a>
+        <div class="burger" onclick="burgerFunc()" id="burger">
+            <span id="burger-span-1"></span>
+            <span id="burger-span-2"></span>
+            <span id="burger-span-3"></span>
+        </div>
+        <div class="burger-menu" id="burger-menu">
+            <ul class="nav-list-center-burger">
+                <li>
+                    <a href="about-company.html">About us</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="job.html"job>Job</a> 
+                </li>
+                <li>
+                    <a href="">Contact</a>                
+                </li>
+                <li>
+                    <a href="news.html">News</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav-list-center">
+            <li>
+                <a href="about-company.html">About us</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="job.html"job>Job</a> 
+            </li>
+            <li>
+                <p href="" onclick="changeContactDisplay()">Contact</p>                
+            </li>
+            <li>
+                <a href="news.html">News</a>
+            </li>
+        </ul>
+        <ul class="nav-list-right">
+            <li>
+                <span class="off">Ukr </span>
+                <span class="on">Eng</span>
+            </li>
+            <li>
+                <a href="login.html">Log in</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="contact-div" id="contact-div">
+        <div class="contact-div-content">
+            <h2>Contact us</h2>
+            <form action="">
+                <div class="contact-div-1">
+                        <input type="text" placeholder="contact@pavepo.com" class="contact-div-input-email">
+                        <div class="radios">
+                            <input type="radio" id="radio-1" name="contact" checked class="radio-1">
+                            <label for="radio-1">Email</label>
+                            <input type="radio" id="radio-2" name="contact" class="radio-2">
+                            <label for="radio-2">Telegram</label>
+                        </div>
+                    </div>
+                    <div class="contact-div-2">
+                        <input type="text" placeholder="Paul" class="contact-div-input-name">
+                        <p class="contact-div-name">Name</p>
+                    </div>
+                    <div class="contact-div-3">
+                        <input type="text" placeholder="Write information about yourself" class="contact-div-input-info">
+                        <p class="contact-div-info">Description</p>
+                    </div>
+                <input type="submit" value="Send" class="contact-div-submit" id="contact-div-submit"
+                onclick="changeContactDisplay()">
+            </form>
+         </div>
+    </div>
+    <main class="about-company">
+        <div class="quote">
+            <img src="img/upper-quote.svg" alt="" class="upper-quote">
+            <div class="quote-text">
+            <p class="quote-main-text">
+                We are always very honest about working with customers. Therefore, we do not undertake projects that we think have a low probability of implementation. But if we have undertaken it, then rest assured - we will do everything possible and not possible to bring your task to an end.
+            </p>
+            <p class="quote-author">
+                Pavel Popov  CEO “PAVEPO”
+            </p>
+        </div>
+            <img src="img/lower-quote.svg" alt="" class="lower-quote">
+        </div>
+        <div class="about-company-team">
+            <p class="about-company-team-text">The PAVEPO team is a team of experts in the field of business process optimization, ready to bring new levels of efficiency and success to your company.</p>
+            <p class="about-company-team-text">Our business process optimization specialists have extensive experience in various industries and a deep understanding of the complexities that companies face in their daily work. We do not just offer template solutions, but research, analyze and develop an individual approach for each client.</p>
+            <p class="about-company-team-text">Our team brings together highly qualified business process specialists, analysts, consultants and developers working closely together to offer you the most complete and effective solution. We pay special attention to details such as data analysis, process modeling, choosing the best technology and implementing changes.</p>
+            <p class="about-company-team-text">We strive for long-term partnerships with our clients based on mutual trust and success. We are proud to help companies with different scales and from different industries achieve meaningful results, reduce costs and increase their competitiveness.</p>
+        </div>
+        <div class="company-values">
+            <div class="value-header">
+                <p><span>V</span>alues</p>
+            </div>
+            <div class="values">
+                <ul class="values-list">
+                    <li class="value">
+                        <p>Courage</p>
+                        <p>We strive for long-term partnerships with </p>
+                    </li>
+                    <li class="value">
+                        <p>Perseverance</p>
+                        <p>We strive for long-term partnerships with </p>
+                    </li>
+                    <li class="value">
+                        <p>Reliability</p>
+                        <p>We strive for long-term partnerships with </p>
+                    </li>
+                    <li class="value">
+                        <p>responsibility</p>
+                        <p>We strive for long-term partnerships with </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h2>Contact us</h2>
+            <form action="">
+                <div class="contact-1">
+                        <input type="text" placeholder="contact@pavepo.com" class="contact-input-email">
+                        <div class="radios">
+                            <input type="radio" id="radio-1" name="contact" checked class="radio-1">
+                            <label for="radio-1">Email</label>
+                            <input type="radio" id="radio-2" name="contact" class="radio-2">
+                            <label for="radio-2">Telegram</label>
+                        </div>
+                    </div>
+                    <div class="contact-2">
+                        <input type="text" placeholder="Paul" class="contact-input-name">
+                        <p class="contact-name">Name</p>
+                    </div>
+                    <div class="contact-3">
+                        <input type="text" placeholder="Pavepo.com" class="contact-input-site">
+                        <p class="contact-site">Company site</p>
+                    </div>
+                    <div class="contact-4">
+                        <input type="text" placeholder="How to move the planet in the right direction even faster?" class="contact-input-question">
+                        <p class="contact-question">Describe the question</p>
+                    </div>
+                <input type="submit" value="Send" class="contact-submit">
+                </form>
+            </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h2>pavepo</h2>
+            <ul>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Telegram</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Email</a></li>
+                <li><a href="policy.html">Privacy</a></li>
+                <li><a href="policy.html">Policy</a></li>
+            </ul>
+            <p class="footer-email">For additional questions  contact@pavepo.com</p>
+            <p class="contact-us" onclick="changeContactDisplay()">
+                Contact us
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

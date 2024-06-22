@@ -1,0 +1,26 @@
+<svg width="267.863281" height="498.634674" viewBox="0 0 267.863 498.635" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_19814_4186_dd" x="84.567017" y="0.000000" width="116.887573" height="498.634674" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="24"/>
+			<feGaussianBlur stdDeviation="8"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.21569 0 0 0 0 0.20392 0 0 0 0 0.66275 0 0 0 0.3 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_19814_4186_dd)">
+		<path id="Vector 335" d="M116.8 448.12C135.65 432.45 173.65 394.26 174.9 366.89C176.47 332.68 139.64 313.6 144.67 261.51C149.71 209.43 191.77 182.18 156.99 130.79C122.21 79.39 97.56 52.17 118.73 2.5" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="5.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+	<rect id="Rectangle 105" x="104.000000" y="59.257355" rx="15.000000" width="30.000000" height="30.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Rectangle 106" x="113.375000" y="68.632355" rx="5.390625" width="10.781250" height="10.781250" fill="#676667" fill-opacity="1.000000"/>
+	<rect id="Rectangle 105" x="136.000000" y="215.257355" rx="15.000000" width="30.000000" height="30.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Rectangle 106" x="145.375000" y="224.632355" rx="5.390625" width="10.781250" height="10.781250" fill="#676667" fill-opacity="1.000000"/>
+	<rect id="Rectangle 105" x="155.000000" y="370.257355" rx="15.000000" width="30.000000" height="30.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Rectangle 106" x="164.375000" y="379.632355" rx="5.390625" width="10.781250" height="10.781250" fill="#676667" fill-opacity="1.000000"/>
+</svg>

@@ -1,0 +1,1309 @@
+@media screen and (max-width: 1283px) {
+    .question p:first-child {
+        margin-bottom: 15px;
+    }
+    .frequent-questions {
+        flex-wrap: wrap;
+    }
+    .frequent-questions-questions {
+        margin-top: 60px;
+    }
+    .program {
+        background-position-y: 40%;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .about-us-paragraphs p:first-child, .team-paragraphs p:first-child {
+        margin-bottom: 25px;
+    }
+    .about-us-paragraphs, .team-paragraphs {
+        margin-bottom: 20px;
+    }
+    .log-in-form {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .team-img, .about-us-img {
+        width: 45%;
+    }
+    .about-us-text h3, .team-text h3 {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:1180px) {
+    .about-us-paragraphs, .team-paragraphs {
+        font-size: 14px;
+    }
+    .direction-h4 {
+        font-size: 20px;
+    }
+    .question p:first-child {
+        font-size: 18px;
+    }
+    .question p:last-child {
+        font-size: 16px;
+    }
+    .ul-top-s {
+        font-size: 20px;
+    }
+    .about-us {
+        margin-bottom: 50px;
+    }
+    .top-part {
+        margin-top: 20px;
+    }
+    .programe {
+        background-position-y: 50%;
+    }
+    .quote {
+        margin: 0 auto 80px auto;
+    }
+    .main-directions {
+        margin-bottom: 50px;
+    }
+    .radios label {
+        font-size: 18px;
+    }
+    input[type=radio] {
+        width: 15px;
+        height: 15px;
+    }
+    input[type=radio]::before {
+        transform: translate(-60%, -60%);
+    }
+    .post-more-theme {
+        font-size: 21px;
+    }
+    .log-in img {
+        margin-top: auto;
+        height: 55%;;
+    }
+    .log-in-form {
+        margin-top: 25px;
+    }
+    .log-in-form {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .about-us-paragraphs p:first-child, .team-paragraphs p:first-child {
+        margin-bottom: 15px;
+    }
+    .about-us-paragraphs, .team-paragraphs {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .about-us-text h3, .team-text h3 {
+        margin-bottom: 8px;
+    }
+    .about-us-more, .team-more {
+        padding: 10px 5px;
+    }
+    .question p:first-child {
+        font-size: 16px;
+    }
+    .question p:last-child {
+        font-size: 14px;
+    }
+    .frequent-questions-text h2 {
+        font-size: 34px;
+    }
+    .direction-h4 {
+        font-size: 16px;
+    }
+    .quote-main-text {
+        font-size: 20px;
+    }
+    .ul-top-f li > p:first-child {
+        font-size: 45px;
+    }
+    .ul-top-f li > p:last-child { 
+        font-size: 17px;
+    }
+    .program-top {
+        width: 70%;
+    }
+    .program-top a {
+        padding: 15px;
+    }
+    .program-2 {
+        width: 30%;
+    }
+    .program {
+        margin-top: 50px;
+    }
+    .values-list li {
+        width: 55%;
+        margin-right: 0;
+    }
+    .policy-header {
+        font-size: 42px;
+    }
+    .news-post img {
+        width: 50%;
+    }
+    .news-header {
+        margin-bottom: 15px;
+    }
+    .log-in img {
+        content: url(img/responsive-img.jpg);
+        width: 40%;
+        margin: auto 0;
+    }
+}
+@media screen and (max-width:1004px) {
+    .job {
+        flex-wrap: wrap;
+    }
+    .job-text {
+        width: 100%;
+        padding: 15px 0;
+        margin-bottom: 45px;
+        margin-right: 0;
+    }
+    .job-text p:first-child {
+        margin-right: 10px;
+        width: 93%;
+    }
+    .job-respond {
+        margin-left: auto;
+    }
+}
+@media screen and (max-width:968px){
+    .top-part {
+        margin-bottom: 50px;
+    }
+    .ul-top-s {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .ul-top-s li {
+        margin: 0 5px;
+        padding: 10px 15px;
+        background-color: grey;
+        margin-bottom: 20px;
+    }
+    .ul-top-f {
+        padding: 0;
+        justify-content: space-evenly;
+    }
+    .contact-1, .contact-2, .contact-3 {
+        width: 45%;
+    }
+    .frequent-questions-questions {
+        margin-top: 25px;
+    }
+    .about-us {
+        flex-direction: column;
+    }
+    .about-us-img, .team-img {
+        width: 95%;
+        margin-left: auto;
+        margin-bottom: 25px;
+        margin-top: 50px;
+    }
+    .about-us-paragraphs, .team-paragraphs {
+        line-height: 33px;
+        font-size: 20px;
+    }
+    .about-us-text h3, .team-text h3 {
+        margin-bottom: 35px;
+        font-size: 32px;
+    }
+    .about-us-text {
+        margin-right: 0;
+    }
+    .about-us-text-line, .team-text-line {
+        display: inline;
+        margin-right: 10px;
+    }
+    .team {
+        flex-direction: column-reverse;
+    }
+    .about-us-more, .team-more {
+        padding: 18px 13px;
+        font-size: 22px;
+    }
+    .about-us-paragraphs, .team-paragraphs {
+        margin-bottom: 50px;
+    }
+    .about-us-paragraphs p:first-child, .team-paragraphs p:first-child {
+        margin-bottom: 25px;
+    }
+    .team-text {
+        margin-left: 0;
+    }
+    .question p:first-child {
+        font-size: 18px;
+    }
+    .question p:last-child {
+        font-size: 16px;
+    }
+    .not-responsive {
+        display: none;
+    }
+    .responsive {
+        display: inline;
+    }
+    .main-directions h2 {
+        margin-bottom: 25px;
+        font-size: 42px;
+    }
+    .direction-h4 {
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .direction-text span {
+        font-size: 20px;
+    }
+    .direction-more {
+        margin: auto 0 auto 15px;
+    }
+    .contact-form {
+        margin-top: 25px;
+        margin-bottom: 80px;
+    }
+    .contact-form h2 {
+        margin-bottom: 10px;
+        font-size: 42px;
+    }
+    .contact-3 {
+        margin-bottom: 25px;
+    }
+    .contact-4 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .contact-question {
+        font-size: 21px;
+    }
+    .contact-submit {
+        font-size: 21px;
+        padding: 20px 100px;
+    }
+    .quote-main-text {
+        margin: 15px;
+    }
+    .footer-content {
+        width: 600px;
+    }
+    .quote {
+        width: 100%;
+    }
+    .quote-main-text {
+        font-size: 18px;
+    }
+    .upper-quote, .lower-quote {
+        width: 32px;
+    }
+    .program {
+        background: none;
+        margin-bottom: 60px;
+    }
+    .program-items {
+        background: url(img/programe-responsive-1.svg) no-repeat;
+        display: block;
+        padding: 50px 0 80px 0;
+        margin-top: 80px;
+    }
+    .program-1 {
+        width: 55%;
+        margin: 0 auto 100px auto;
+    }
+    .program-2 {
+        width: 45%;
+        margin-left: 40%;
+        margin-bottom: 100px;
+    }
+    .program-3 {
+        margin-left: auto;
+        width: 40%;
+    }
+    .program-top {
+        width: 100%;
+    }
+    .program-top a {
+        padding: 15px 25px;
+    }
+    .program-1 h5, .program-2 h5, .program-3 h5 {
+        margin-bottom: 5px;
+    }
+    .program-top h3 {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+    .program-top p {
+        margin-bottom: 40px;
+    }
+    .about-company-team {
+        margin-top: 150px;
+    }
+    .values-list {
+        margin-top: 0;
+    }
+    .values-list li {
+        margin-bottom: 50px;
+    }
+    .company-values {
+        margin-top: 50px;
+    }
+    .values-list li > p:first-child {
+        font-size: 26px;
+    }
+    .value-header {
+        font-size: 54px;
+    }
+    .value-header span {
+        font-size: 340px;
+        margin-right: -60px;
+    }
+    .values-list li {
+        width: 70%;
+    }
+    .policy-page {
+        padding: 50px 150px;
+    }
+    .policy-header {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+    .policy-date {
+        margin-bottom: 50px;
+    }
+    .news-post {
+        flex-direction: column-reverse;
+    }
+    .news-post img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .news-posts h2 {
+        margin-bottom: 50px;
+    }
+    .post-text {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 25px;
+    } 
+    .news-header-text {
+        width: 100%;
+    }
+    .news-post {
+        border-bottom: 1px solid grey;
+        padding-bottom: 50px;
+    }
+    .news-header {
+        position: relative;
+    }
+    .news-header-img{
+        display: none;
+    }
+    .news-header-lower-text-n-img {
+        display: flex;
+        justify-content: space-between;
+    }
+    .new-header-date {
+        margin-bottom: 50px;
+    }
+    .news-header-lower-text {
+        font-size: 20px;
+    }
+    .news-header h2 {
+        margin-bottom: 25px;
+    }
+    .news-header-text a {
+        margin-bottom: 50px;
+    }
+    .news-header-pre-lower {
+        display: inline;
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 25px;
+    }
+    .news {
+        padding: 50px 100px;
+    }
+    .post-theme h2 {
+        font-size: 42px;
+    }
+    .post-info-top-text h3, .post-info-bottom h3 {
+        font-size: 30px;
+    }
+    .post-theme {
+        margin-top: 25px;
+    }
+    .post-more-theme {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .post-more-text {
+        font-size: 14px;
+    }
+    .post-more-date {
+        font-size: 12px;
+    }
+    .post-more img {
+        margin-bottom: 10px;
+    }
+    .post-info-bottom {
+        width: 85%;
+        margin: 0 auto 50px auto;
+    }
+    .log-in img {
+        width: 35%;
+    }
+    .log-in p {
+        font-size: 20px;
+    }
+    .log-in-input-email, .log-in-input-password {
+        margin-bottom: 10px;
+    }
+    .log-in h2 {
+        font-size: 54px;
+    }
+    .log-in {
+        padding: 80px 60px;
+    }
+    .log-in-form {
+        width: 60%;
+    }
+    .label-for-email, .label-for-password {
+        font-size: 20px;
+    }
+    .log-in-input-email::placeholder, .log-in-input-password::placeholder{
+        font-size: 18px;
+    }
+    .label-for-checkbox, .log-in-forgot {
+        font-size: 18px;
+    }
+
+}
+@media screen and (max-width:825px) {
+    .program-3 {
+        width: 30%;
+    }
+    .program-1 {
+        width: 50%;
+    }
+    .program-1 p, .program-2 p, .program-3 p, .program-1 h5, .program-2 h5, .program-3 h5 {
+        font-size: 14px;
+    }
+    .company-values {
+        flex-direction: column;
+    }
+    .value-header {
+        margin-right: auto;
+    }
+    .values-list li {
+        width: 90%;
+    }
+    .value-header span {
+        font-size: 400px;
+    }
+    .value-header {
+        font-size: 64px;
+        margin-bottom: 25px;
+    }
+    .about-company-team-text {
+        width: 75%;
+    }
+    .policy-header {
+        font-size: 30px;
+    }
+    .news-header-pre-lower {
+        width: 100%;
+        margin-left: 0;
+    }
+    .posts-more {
+        flex-direction: column;
+    }
+    .post-more {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .posts-more .off {
+        display: inline;
+    }
+    .posts-more .on {
+        display: none;
+    }
+    .post-read-more h3 {
+        margin-bottom: 25px;
+    }
+    .posts-more {
+        border: none;
+    }
+    .post-more {
+        border-bottom: 1px solid grey;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+    .post-more-date {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .post-more-theme {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .post-more-text {
+        margin-bottom: 25px;
+    }
+    .post-main {
+        padding: 25px 100px;
+    }
+    .post-info-top-text {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .post-info-top-text p {
+        padding: 15px 0;
+    }
+    .post-info-top-text h3 {
+        margin-bottom: 0;
+    }
+    .post-info img {
+        margin-bottom: 25px;
+    }
+    .post-text-top {
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+    .post-info-bottom {
+        margin: 0 0 50px 0;
+        width: 100%;
+    }
+    .post-info-bottom p {
+        padding: 0;
+    }
+    .post-info-bottom ul {
+        padding-left: 25px;
+        padding-right: 0;
+    }
+    .post-theme h2 {
+        font-size: 34px;
+    }
+}
+@media screen and (max-width:768px) {
+    nav {
+        padding: 30px;
+    }
+    .main {
+        padding: 0 80px;
+    }
+    .contact-div-submit {
+        margin-left: 0;
+        width: 100%;
+    }
+    .nav-list-right {
+        display: none;
+    }
+    .nav-list-center {
+        display: none;
+    }
+    .nav-responsive-log-in {
+        display: inline;
+    }
+    .burger {
+        display: inline;
+    }
+    .job-respond {
+        width: 50%;
+        text-align: center;
+    }
+    .news-posts h2 {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+    .post-more-date, .news-header-text h2 {
+        font-size: 26px;
+    }
+    .news-header-text h2, .new-header-date, .news-header-upper-text, .news-header-pre-lower, .post-more-date, .post-text p:first-child{ 
+        margin-bottom: 10px;
+    }
+    .news-header-lower-text {
+        font-size: 16px;
+    }
+    .log-in img {
+        display: none;
+    }
+    .log-in {
+        padding: 20px 60px 80px 60px;
+    }
+    .log-in-form {
+        width: 100%;
+    }
+    .log-in-input-email, .log-in-input-password {
+        padding: 25px 15px;
+    }
+    .log-in-submit {
+        padding: 20px 15px;
+    }
+    .label-for-checkbox, .log-in-forgot {
+        font-size: 22px;
+    }
+    .log-in-input-checkbox {
+        width: 18px;
+        height: 18px;
+    }
+    .log-in p {
+        font-size: 22px;
+    }
+    .log-in {
+        padding: 20px 80px 80px 80px;
+    }
+}
+@media screen and (max-width:668px){
+    .about-us-paragraphs, .team-paragraphs {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .about-us-text h3, .team-text h3 {
+        margin-bottom: 10px;
+    }
+    .about-us-paragraphs, .team-paragraphs {
+        margin-bottom: 25px;
+    }
+    .about-us-paragraphs p:first-child, .team-paragraphs p:first-child {
+        margin-bottom: 15px;
+    }
+    .main-directions h2 {
+        margin-bottom: 15px;
+        font-size: 38px;
+    }
+    .direction-text span {
+        font-size: 18px;
+    }
+    .direction-more {
+        padding: 20px;
+    }
+    .contact-form h2 {
+        font-size: 38px;
+    }
+    .footer-content {
+        width: 480px;
+    }
+    .nav-responsive-log-in {
+        margin: auto 50px auto 0;
+    }
+    .quote-main-text {
+        margin: 15px 5px;
+    }
+    .program-items {
+        background: url(img/programe-responsive-2.svg) no-repeat;
+        background-size: 90%;
+        background-position-x: -340%;
+    }
+    .program-1 {
+        margin-left: 40%;
+        margin-right: 0;
+        width: 55%;
+    }
+    .program-2 {
+        margin-left: 40%;
+        /* margin-bottom: 140px; */
+        width: 55%;
+    }
+    .program-3 {
+        width: 55%;
+    }
+    .program-top h3 {
+        font-size:38px;
+        margin-bottom: 10px;
+    }
+    .about-company-team {
+        padding-top: 25px;
+        background: url(img/team-2.svg) no-repeat;
+        background-position-x: 100%;
+        background-size: 25%;
+    }
+    .about-company-team-text {
+        width: 100%;
+    }
+    .about-company-team {
+        margin-top: 50px;
+    }
+    .policy-page {
+        padding: 50px 120px;
+    }
+    .policy-text {
+        margin-bottom: 25px;
+    }
+    .job-text p:first-child {
+        width: 90%;
+    }
+    .news-post img {
+        width: 100%;
+        margin: 0;
+    }
+    .news-post {
+        padding-bottom: 25px;
+        margin-bottom: 15px;
+    }
+    .post-theme h2 {
+        font-size: 32px;
+    }
+    .post-info-top-text h3, .post-info-bottom h3 {
+        font-size: 22px;
+    }
+    .post-info-top-text p, .post-info-bottom p  {
+        font-size: 14px;
+    }
+    .post-info-bottom ul {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:626px) {
+    .burger-menu {
+        font-size: 28px;
+        padding: 15px;
+        top: 46%;
+    }
+    .nav-list-center-burger li {
+        margin: 10px 0;
+    }
+    .contact-1, .contact-2, .contact-3 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contact-form input::placeholder {
+        font-size: 22px;
+    }
+    .question {
+        padding: 25px 0;
+    }
+    .contact-input-email, .contact-input-name, .contact-input-site, .contact-input-question {
+        margin-bottom: 15px;
+    }
+    input[type=radio]::before {
+        transform: translate(-60%, -50%);
+      }
+    .contact-submit {
+        padding: 20px 0;
+        width: 100%;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contact-us {
+        width: 230px;
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-email {
+        font-size: 20px;
+    }
+    .footer-content ul {
+        flex-wrap: wrap;
+    }
+    .footer-content li {
+        width: 30%;
+        margin-bottom: 15px;
+    }
+    footer h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .frequent-questions-text p {
+        font-size: 18px;
+    }
+    .frequent-questions-text h2 {
+        margin-bottom: 20px;
+    }
+    .frequent-questions-text p {
+        width: 100%;
+    }
+    .question p:first-child {
+        width: 100%;
+    }
+    .program-1, .program-2 {
+        margin-bottom: 60px;
+    }
+    .value-header {
+        font-size: 54px;
+    }
+    .value-header span {
+        font-size: 300px;
+    }
+    .policy-page h1 {
+        font-size: 42px;
+    }
+    .policy-header {
+        font-size: 28px;
+    }
+    .policy-date {
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+    .policy-text {
+        font-size: 14px;
+    }
+    .post-theme h2 {
+        font-size: 24px;
+    }
+    .post-theme h3 {
+        font-size: 18px;
+    }
+    .user-info-name p:first-child {
+        font-size: 22px;
+    }
+    .user-info p:last-child {
+        font-size: 14px;
+    }
+    .user-info img {
+        width: 40px;
+        height: 40px;
+    }
+    .post-read-more h3 {
+        font-size: 28px;
+    }
+    .post-more-date{
+        font-size: 16px;
+    }
+    .post-more-theme {
+        font-size: 18px;
+    }
+    .label-for-checkbox {
+        margin-right: 30%;
+    }
+    .log-in-forgot {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .log-in-input-password {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:570px) {
+    .responsive h2, .contact-form h2 {
+        font-size: 28px;
+    }
+    .direction-h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .direction-text span {
+        font-size: 16px;
+    }
+    .contact-form {
+        margin-top: 50px;
+    }
+    .about-us-paragraphs, .team-paragraphs {
+        font-size: 16px;
+    }
+    .frequent-questions-text h2 {
+        font-size: 30px;
+    }
+    .quote-main-text {
+        font-size: 16px;
+    }
+    .program-items {
+        margin-top: 40px;
+    }
+    .program {
+        margin-bottom: 0;
+        margin-top: 35px;
+    }
+    .program-top h3 {
+        font-size: 32px;
+    }
+    .program-top p {
+        font-size: 14px
+    }
+    .program-1, .program-2 {
+        margin-bottom: 55px;
+    }
+    .program-1, .program-2, .program-3 {
+        line-height: 25px;
+    }
+    .program-1 p, .program-2 p, .program-3 p, .program-1 h5, .program-2 h5, .program-3 h5 {
+        font-size: 13px;
+    }
+    .program-top h3 {
+        font-size: 26px;
+    }
+    .about-company-team {
+        background-size: 35%;
+    }
+    .about-company-team-text {
+        margin-bottom: 15px;
+    }
+    .policy-page {
+        padding: 25px 80px;
+    }
+    .job-text {
+        margin-bottom: 15px;
+    }
+    .job-text p:first-child {
+        font-size: 18px;
+    }
+    .job-text p:last-child {
+        font-size: 16px;
+    }
+    .job-respond {
+        font-size: 18px;
+        width: 30%;
+        padding: 10px 40px;
+    }
+    .news {
+        padding: 50px 80px;
+    }
+    .news-post-a {
+        margin-top: 25px;
+    }
+    .news-prev {
+        font-size: 20px;
+    }
+    .news-next {
+        font-size: 24px;
+    }
+    .log-in h2 {
+        font-size: 46px;
+    }
+    .log-in p {
+        font-size: 18px;
+    }
+    .log-in-input-email, .log-in-input-password {
+        padding: 20px 15px;
+    }
+    .log-in p {
+        margin-bottom: 10px;
+    }
+    .log-in-forgot {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:518px) {
+    .logo {
+        font-size: 30px;
+    }
+    .nav-responsive-log-in {
+        padding: 5px 50px;
+    }
+    nav {
+        padding: 15px 30px;
+    }
+    .ul-top-f {
+        margin-bottom: 50px;
+        justify-content: space-between;
+    }
+    .ul-top-f li > p:first-child {
+        font-size: 35px;
+    }
+    .ul-top-s li {
+        margin: 0 5px;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+    .question p:first-child {
+        font-size: 16px;
+    }
+    .question p:last-child {
+        font-size: 14px;
+    }
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .burger-menu {
+        top: 43%;
+    }
+    .footer-content {
+        width: 100%;
+    }
+    .contact-us {
+        width: 130px;
+        display: block;
+        margin: 0 auto;
+    }
+    .quote-main-text, .quote-author {
+        font-size: 14px;
+    }
+    .program-1 p, .program-2 p, .program-3 p, .program-1 h5, .program-2 h5, .program-3 h5 {
+        font-size: 12px;
+    }
+    .program-items {
+        padding: 25px 0;
+    }
+    .program-1, .program-2 {
+        margin-bottom: 25px;
+    }
+    .about-company-team-text {
+        font-size: 14px;
+    }
+    .value-header {
+        font-size: 38px;
+    }
+    .value-header span {
+        font-size: 280px;
+    }
+    .job-text p:first-child {
+        width: 85%;
+    }
+    .post-main {
+        padding: 25px 50px;
+    }
+    .log-in h2 {
+        font-size: 42px;
+    }
+    .log-in p {
+        font-size: 16px;
+    }
+    .label-for-email, .label-for-password, .label-for-checkbox, .log-in-forgot {
+        font-size: 18px;
+    }
+    .log-in-forgot {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .log-in-submit {
+        padding: 15px;
+    }
+    .log-in-input-email, .log-in-input-password {
+        padding: 18px 15px;
+    }
+}
+@media screen and (max-width:464px){
+    .burger-menu {
+        top: 37%;
+        font-size: 20px;
+    }
+    .nav-responsive-log-in {
+        margin: auto 25px auto 0;
+        padding: 5px 40px;
+    }
+    .ul-top-f li > p:first-child {
+        font-size: 28px;
+    }
+    .ul-top-f li > p:last-child {
+        font-size: 14px;
+    }
+    .contact-div-content h2 {
+        font-size: 32px;
+    }
+    .top-part h1 {
+        font-size: 54px;
+    }
+    .top-part p {
+        font-size: 14px;
+    }
+    .about-us-paragraphs, .team-paragraphs {
+        font-size: 14px;
+    }
+    .about-us-more, .team-more {
+        font-size: 18px;
+        padding: 16px 10px;
+    }
+    .quote-main-text, .quote-author {
+        font-size: 12px;
+    }
+    .main-directions h2, .contact-form h2 {
+        font-size: 26px;
+    }
+    .direction-h4 {
+        font-size: 16px;
+    }
+    .direction-text span {
+        font-size: 14px;
+    }
+    .direction-more {
+        padding: 15px;
+        margin: auto 0 auto 10px;
+    }
+    .contact-form {
+        margin-top: 25px;
+    }
+    .ul-top-s {
+        font-size: 14px;
+    }
+    .program-1 {
+        margin-bottom: 15px;
+    }
+    .program-1, .program-2{
+        width: 80%;
+        margin-left: 30%;
+    }
+    .program-3 {
+        width: 70%;
+        margin-left: 30%;
+    }
+    .program-top h3 {
+        font-size: 26px;
+    }
+    .program-top a {
+        margin: 0 auto;
+        width: 65%;
+        padding: 15px 0;
+        display: block;
+        text-align: center;
+        font-size: 14px;
+    }
+    .program-top p {
+        margin-bottom: 15px;
+    }
+    .about-company-team-text {
+        font-size: 12px;
+    }
+    .job-text p:first-child {
+        font-size: 16px;
+    }
+    .job-text p:last-child {
+        font-size: 14px;
+    }
+    .job {
+        padding: 10px 0;
+    }
+    .news-header-text h2, .post-text p:nth-child(2) {
+        font-size: 22px;
+    }
+    .news-header-upper-text {
+        font-size: 14px;
+    }
+    .new-header-date {
+        font-size: 12px;
+    }
+    .news-header-lower-text, .post-text p:last-child {
+        font-size: 14px;
+    }
+    .post-text p:first-child {
+        font-size: 14px;
+    }
+    .news-posts h2 {
+        font-size: 30px;
+    }
+    .log-in h2 {
+        font-size: 30px;
+    }
+    .log-in-input-email, .log-in-input-password {
+        padding: 15px;
+    }
+    .log-in {
+        padding: 20px 60px 80px 60px;
+    }
+    .label-for-email, .label-for-password, .label-for-checkbox, .log-in-forgot {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:450px) {
+    .program-items {
+        padding: 0;
+    }
+    .value-header {
+        font-size: 32px;
+    }
+    .value-header span {
+        font-size: 200px;
+        margin-right: -40px;
+        line-height: 140px;
+    }
+    .values-list li > p:first-child {
+        font-size: 20px;
+    }
+    .values-list li > p:last-child {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .values-list li {
+        margin-bottom: 25px;
+    }
+    .policy-page h1 {
+        font-size: 32px;
+    }
+    .policy-header {
+        font-size: 20px;
+    }
+    .job-text p:first-child {
+        width: 80%;
+    }
+    .job-respond {
+        width: 100%;
+    }
+}
+@media screen and (max-width:404px) {
+    .burger-menu {
+        top: 35%;
+        font-size: 20px;
+    }
+    .logo {
+        font-size: 24px;
+    }
+    .nav-responsive-log-in {
+        padding: 5px 25px;
+    }
+    .top-part h1 {
+        font-size: 48px;
+    }
+    .top-part p {
+        font-size: 12px;
+    }
+    .ul-top-f {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .ul-top-f li{
+        margin: 15px 0;
+    }
+    .ul-top-f li > p:first-child {
+        font-size: 32px;
+    }
+    .ul-top-f li > p:last-child {
+        font-size: 18px;
+    }
+    .program-1 p, .program-2 p, .program-3 p, .program-1 h5, .program-2 h5, .program-3 h5 {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .program-3 {
+        padding-bottom: 30px;
+    }
+    .about-company-team {
+        background-size: 50%;
+    }
+    .value-header {
+        font-size: 30px;
+    }
+    .value-header span {
+        font-size: 180px;
+        margin-right: -30px;
+    }
+    .job-text p:last-child {
+        font-size: 12px;
+    }
+    .job-text-opened p:last-child {
+        padding: 10px 0;
+    }
+    .news {
+        padding: 50px;
+    }
+}
+@media screen and (max-width:376px) {
+    .burger-menu {
+        top: 43%;
+    }
+}
+@media screen and (max-width:368px) {
+    .program-items {
+        background: none;
+    }
+    .program-1, .program-2, .program-3 {
+        margin: 15px auto;
+        width: 80%;
+    }
+    .program-2 {
+        margin-bottom: 25px;
+    }
+    .program-top a {
+        width: 85%;
+    }
+    .job-text p:first-child {
+        width: 75%;
+        font-size: 15px;
+    }
+}

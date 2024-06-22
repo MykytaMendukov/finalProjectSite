@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <p class="logo">
+            <a href="index.html">pavepo</a>
+        </p>
+        <a href="login.html" class="nav-responsive-log-in">Log in</a>
+        <div class="burger" onclick="burgerFunc()" id="burger">
+            <span id="burger-span-1"></span>
+            <span id="burger-span-2"></span>
+            <span id="burger-span-3"></span>
+        </div>
+        <div class="burger-menu" id="burger-menu">
+            <ul class="nav-list-center-burger">
+                <li>
+                    <a href="about-company.html">About us</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="job.html"job>Job</a> 
+                </li>
+                <li>
+                    <a href="">Contact</a>                
+                </li>
+                <li>
+                    <a href="news.html">News</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav-list-center">
+            <li>
+                <a href="about-company.html">About us</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="job.html"job>Job</a> 
+            </li>
+            <li>
+                <p href="" onclick="changeContactDisplay()">Contact</p>                
+            </li>
+            <li>
+                <a href="news.html">News</a>
+            </li>
+        </ul>
+        <ul class="nav-list-right">
+            <li>
+                <span class="off">Ukr </span>
+                <span class="on">Eng</span>
+            </li>
+            <li>
+                <a href="login.html">Log in</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="contact-div" id="contact-div">
+        <div class="contact-div-content">
+            <h2>Contact us</h2>
+            <form action="">
+                <div class="contact-div-1">
+                        <input type="text" placeholder="contact@pavepo.com" class="contact-div-input-email">
+                        <div class="radios">
+                            <input type="radio" id="radio-1" name="contact" checked class="radio-1">
+                            <label for="radio-1">Email</label>
+                            <input type="radio" id="radio-2" name="contact" class="radio-2">
+                            <label for="radio-2">Telegram</label>
+                        </div>
+                    </div>
+                    <div class="contact-div-2">
+                        <input type="text" placeholder="Paul" class="contact-div-input-name">
+                        <p class="contact-div-name">Name</p>
+                    </div>
+                    <div class="contact-div-3">
+                        <input type="text" placeholder="Write information about yourself" class="contact-div-input-info">
+                        <p class="contact-div-info">Description</p>
+                    </div>
+                <input type="submit" value="Send" class="contact-div-submit" id="contact-div-submit"
+                onclick="changeContactDisplay()">
+            </form>
+         </div>
+        </div>
+    <main class="post-main">
+        <a href="news.html" class="post-back">Back</a>
+        <div class="post-theme">
+            <div class="user-info">
+                <img src="img/user-icon.png" alt="">
+                <div class="user-info-name">
+                    <p>Andrew Jonson</p>
+                    <p>Posted on 27th January 2022</p>
+                </div>
+            </div>
+            <h2>Step-by-step guide to choosing great font pairs</h2>
+            <h3>Startup</h3>
+        </div>
+       <div class="post-info">
+        <img src="img/photo-of-woman-wearing-eyeglasses-3184405.png" alt="">
+        <div class="post-text-top">
+            <div class="post-info-top-text">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.</p>
+            </div>
+            <div class="post-info-top-text">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.</p>
+            </div>
+        </div>
+        <div class="post-info-bottom">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Non blandit massa enim nec scelerisque</li>
+                <li>Neque egestas congue quisque egestas</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.</p>
+        </div>
+       </div>
+       <div class="post-read-more">
+        <h3>What to read next</h3>
+        <div class="posts-more">
+            <div class="post-more">
+                <img src="img/two-women-in-front-of-dry-erase-board-1181533.png" alt="" class="on">
+                <p class="post-more-date">By John Doe   l   Aug 23, 2021 </p>
+                <p class="post-more-theme">A UX Case Study Creating a Studious Environment for Students: </p>
+                <p class="post-more-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                <img src="img/two-women-in-front-of-dry-erase-board-1181533.png" alt="" class="off">
+            </div>
+            <div class="post-more">
+                <img src="img/photo-of-people-doing-handshakes-3183197.png" alt="" class="on">
+                <p class="post-more-date">By John Doe   l   Aug 23, 2021 </p>
+                <p class="post-more-theme">A UX Case Study Creating a Studious Environment for Students: </p>
+                <p class="post-more-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                <img src="img/photo-of-people-doing-handshakes-3183197.png" alt="" class="off">
+            </div>
+            <div class="post-more">
+                <img src="img/photo-of-woman-looking-at-man-3183173.png" alt="" class="on">
+                <p class="post-more-date">By John Doe   l   Aug 23, 2021 </p>
+                <p class="post-more-theme">A UX Case Study Creating a Studious Environment for Students: </p>
+                <p class="post-more-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                <img src="img/photo-of-woman-looking-at-man-3183173.png" alt="" class="off">
+            </div>
+        </div>
+       </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h2>pavepo</h2>
+            <ul>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Telegram</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Email</a></li>
+                <li><a href="policy.html">Privacy</a></li>
+                <li><a href="policy.html">Policy</a></li>
+            </ul>
+            <p class="footer-email">For additional questions  contact@pavepo.com</p>
+            <p class="contact-us" onclick="changeContactDisplay()">
+                Contact us
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
