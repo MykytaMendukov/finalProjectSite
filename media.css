@@ -245,6 +245,7 @@
     }
     .responsive {
         display: inline;
+        padding: 50px 0;
     }
     .main-directions h2 {
         margin-bottom: 25px;
@@ -760,7 +761,7 @@
     .burger-menu {
         font-size: 28px;
         padding: 15px;
-        top: 46%;
+        top: 18%;
     }
     .nav-list-center-burger li {
         margin: 10px 0;
